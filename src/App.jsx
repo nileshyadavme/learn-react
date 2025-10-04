@@ -1,10 +1,10 @@
-import "./index.css"
 
-function App() {  
-  return (
-    <section>
-      <h1> TEXT</h1>
-    </section>
-  )
+import TodoList from "/miniProjects/TodoList.jsx"
+function App() {
+
+  return <TodoList />
+
 };
+
 export default App;
+
